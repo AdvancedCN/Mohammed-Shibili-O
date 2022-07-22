@@ -1,0 +1,12 @@
+#!/bin/bash
+echo "enter a and b"
+read a
+read b
+p=1
+i=1
+for ((i=1;i<b+1;i++))
+do
+p=$((p*a))
+done
+echo "$a ^ $b = $p"
+
